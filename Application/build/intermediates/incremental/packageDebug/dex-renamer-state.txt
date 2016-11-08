@@ -1,0 +1,7 @@
+#Tue Nov 08 15:27:42 CST 2016
+base.0=/Users/zhoujianzheng/Desktop/water/project/BLE/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_db0d43bd06619387e62ceec09ad455000886d08d
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/zhoujianzheng/Desktop/water/project/BLE/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_03d0fd94977bdc80976b618dc8b3ef62b61f224e/classes.dex
+base.1=/Users/zhoujianzheng/Desktop/water/project/BLE/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_03d0fd94977bdc80976b618dc8b3ef62b61f224e
+file.0=/Users/zhoujianzheng/Desktop/water/project/BLE/android-BluetoothLeGatt/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_db0d43bd06619387e62ceec09ad455000886d08d/classes.dex
