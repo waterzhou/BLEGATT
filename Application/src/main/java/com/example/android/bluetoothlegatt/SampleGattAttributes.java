@@ -27,12 +27,38 @@ public class SampleGattAttributes {
     public static String CLIENT_CHARACTERISTIC_CONFIG = "00002902-0000-1000-8000-00805f9b34fb";
 
     static {
-        // Sample Services.
+        attributes.put("00001800-0000-1000-8000-00805f9b34fb", "GAP Service");
+        attributes.put("00001801-0000-1000-8000-00805f9b34fb", "GATT Service");
         attributes.put("0000180d-0000-1000-8000-00805f9b34fb", "Heart Rate Service");
+        attributes.put("00001812-0000-1000-8000-00805f9b34fb", "HID Service");
         attributes.put("0000180a-0000-1000-8000-00805f9b34fb", "Device Information Service");
         // Sample Characteristics.
-        attributes.put(HEART_RATE_MEASUREMENT, "Heart Rate Measurement");
+        attributes.put("00002a00-0000-1000-8000-00805f9b34fb", "Device Name");
+        attributes.put("00002a01-0000-1000-8000-00805f9b34fb", "Appearance");
+        attributes.put("00002a02-0000-1000-8000-00805f9b34fb", "Peripheral Privacy");
+        attributes.put("00002a03-0000-1000-8000-00805f9b34fb", "Reconnection Address");
+        attributes.put("00002a04-0000-1000-8000-00805f9b34fb", "Peripheral Preferred Connection Parameters");
+        attributes.put("00002a05-0000-1000-8000-00805f9b34fb", "Service Changed");
+        attributes.put("00002a22-0000-1000-8000-00805f9b34fb", "HID Boot Key Input Report");
+        attributes.put("00002a23-0000-1000-8000-00805f9b34fb", "System ID");
+        attributes.put("00002a24-0000-1000-8000-00805f9b34fb", "Model Number");
+        attributes.put("00002a25-0000-1000-8000-00805f9b34fb", "Serial Number");
+        attributes.put("00002a26-0000-1000-8000-00805f9b34fb", "Firmware Version");
+        attributes.put("00002a27-0000-1000-8000-00805f9b34fb", "Hardware Version");
+        attributes.put("00002a28-0000-1000-8000-00805f9b34fb", "Software Version");
+
+
         attributes.put("00002a29-0000-1000-8000-00805f9b34fb", "Manufacturer Name String");
+        attributes.put("00002a2a-0000-1000-8000-00805f9b34fb", "IEEE Reg Cert Data List");
+        attributes.put("00002a32-0000-1000-8000-00805f9b34fb", "HID Boot Key Output Report");
+        attributes.put("00002a37-0000-1000-8000-00805f9b34fb", "Heart Rate Measurement");
+        attributes.put("00002a4a-0000-1000-8000-00805f9b34fb", "HID Information");
+        attributes.put("00002a4b-0000-1000-8000-00805f9b34fb", "HID Report Map");
+        attributes.put("00002a4c-0000-1000-8000-00805f9b34fb", "HID Control Point");
+        attributes.put("00002a4d-0000-1000-8000-00805f9b34fb", "HID Report");
+        attributes.put("00002a4e-0000-1000-8000-00805f9b34fb", "HID Protocol Mode");
+        attributes.put("00002a50-0000-1000-8000-00805f9b34fb", "PNP ID");
+        attributes.put("00002a82-0000-1000-8000-00805f9b34fb", "HID Audio");
     }
 
     public static String lookup(String uuid, String defaultName) {

@@ -352,6 +352,7 @@
         
         
     </string>
+    <string name="label_count">Speed:</string>
     <string name="label_data">Data:</string>
     <string name="label_device_address">Device address:</string>
     <string name="label_state">State:</string>
@@ -360,6 +361,7 @@
     <string name="menu_scan">Scan</string>
     <string name="menu_stop">Stop</string>
     <string name="no_data">No data</string>
+    <string name="speed_test">Reset</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_devices">BLE Device Scan</string>
     <string name="unknown_characteristic">Unknown characteristic</string>

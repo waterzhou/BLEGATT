@@ -4,10 +4,9 @@
     api-level="23"
     density="xxhdpi"
     format="8"
-    plugin-version="2.2.1"
-    timestamp="28992283832599"
-    token="7992357516472184616"
-    verifier="MANIFEST_FILE_CHANGE" >
+    plugin-version="2.2.2"
+    timestamp="92569241973638"
+    token="225338726136745790" >
 
     <task
         name="javac"
@@ -22,16 +21,20 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="/Users/zhoujianzheng/Desktop/water/project/BLE/android-BluetoothLeGatt/Application/build/outputs/apk/Application-debug.apk"
-        type="MAIN" />
-
     <build
-        timestamp="28992283832599"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="91264375978446"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/zhoujianzheng/Desktop/water/project/BLE/android-BluetoothLeGatt/Application/build/outputs/apk/Application-debug.apk"
+            location="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/outputs/apk/Application-debug.apk"
             type="MAIN" />
     </build>
+    <build
+        timestamp="92552769668918"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="92569241973638" />
 
 </instant-run>

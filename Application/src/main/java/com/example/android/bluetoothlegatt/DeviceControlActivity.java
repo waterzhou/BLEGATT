@@ -31,11 +31,13 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 
@@ -52,9 +54,13 @@ public class DeviceControlActivity extends Activity {
     public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";
 
     private TextView mConnectionState;
+    private Button mSpeedButton;
     private TextView mDataField;
+    private TextView mSpeedField;
     private String mDeviceName;
     private String mDeviceAddress;
+    private int mCount;
+    private long mStartMilliseconds;
     private ExpandableListView mGattServicesList;
     private BluetoothLeService mBluetoothLeService;
     private ArrayList<ArrayList<BluetoothGattCharacteristic>> mGattCharacteristics =
@@ -109,10 +115,39 @@ public class DeviceControlActivity extends Activity {
                 displayGattServices(mBluetoothLeService.getSupportedGattServices());
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
                 displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA));
+                if(mCount == 0)
+                {
+                    mStartMilliseconds = Calendar.getInstance().getTimeInMillis();
+                    Log.d(TAG, "start time =" + mStartMilliseconds);
+
+                }
+                mCount++;
+                if (mCount == 52)
+                {
+                    long timepassed = Calendar.getInstance().getTimeInMillis() - mStartMilliseconds;
+
+                    long speedvalue = (52*8*20*1000)/timepassed ;
+                    mSpeedField.setText(String.valueOf(speedvalue)+ "bps");
+                    Log.d(TAG,"time passed =" + timepassed + "speed=" + speedvalue);
+                } else {
+                    if (mCount > 52)
+                        Log.d(TAG, "over 52 is " + mCount);
+                    //mSpeedField.setText(String.valueOf(mCount));
+                }
             }
         }
     };
 
+    private final View.OnClickListener speedButtonClickListner = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            if (mCount != 0)
+            {
+                mCount = 0;
+            }
+            mSpeedField.setText(String.valueOf(mCount));
+        }
+    };
     // If a given GATT characteristic is selected, check for supported features.  This sample
     // demonstrates 'Read' and 'Notify' features.  See
     // http://d.android.com/reference/android/bluetooth/BluetoothGatt.html for the complete
@@ -167,6 +202,9 @@ public class DeviceControlActivity extends Activity {
         mGattServicesList.setOnChildClickListener(servicesListClickListner);
         mConnectionState = (TextView) findViewById(R.id.connection_state);
         mDataField = (TextView) findViewById(R.id.data_value);
+        mSpeedField = (TextView) findViewById(R.id.count_value);
+        mSpeedButton = (Button)findViewById(R.id.speed_test);
+        mSpeedButton.setOnClickListener(speedButtonClickListner);
 
         getActionBar().setTitle(mDeviceName);
         getActionBar().setDisplayHomeAsUpEnabled(true);

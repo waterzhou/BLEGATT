@@ -145,7 +145,7 @@ public class DeviceScanActivity extends ListActivity {
                         .setScanMode(ScanSettings.SCAN_MODE_LOW_LATENCY)
                         .build();
                 mFilters = new ArrayList<ScanFilter>();
-                mFilters.add(new ScanFilter.Builder().setServiceUuid(uuid).build());
+                //mFilters.add(new ScanFilter.Builder().setServiceUuid(uuid).build());
             }
             scanLeDevice(true);
         }
@@ -179,7 +179,11 @@ public class DeviceScanActivity extends ListActivity {
         intent.putExtra(DeviceControlActivity.EXTRAS_DEVICE_NAME, device.getName());
         intent.putExtra(DeviceControlActivity.EXTRAS_DEVICE_ADDRESS, device.getAddress());
         if (mScanning) {
-            mBluetoothAdapter.stopLeScan(mLeScanCallback);
+            if (Build.VERSION.SDK_INT < 21) {
+                mBluetoothAdapter.stopLeScan(mLeScanCallback);
+            } else {
+                mLEScanner.stopScan(mScanCallback);
+            }
             mScanning = false;
         }
         startActivity(intent);

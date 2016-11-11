@@ -16,8 +16,10 @@
 <resources>
     <string name="ble_not_supported">BLE is not supported</string>
     <string name="label_data">Data:</string>
+    <string name="label_count">Speed:</string>
     <string name="label_device_address">Device address:</string>
     <string name="label_state">State:</string>
+    <string name="speed_test">Reset</string>
     <string name="no_data">No data</string>
     <string name="connected">Connected</string>
     <string name="disconnected">Disconnected</string>
