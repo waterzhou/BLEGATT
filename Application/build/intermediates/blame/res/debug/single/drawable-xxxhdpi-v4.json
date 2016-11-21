@@ -20,12 +20,12 @@
         "source": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png",
-        "source": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png",
+        "source": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
         "merged": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",

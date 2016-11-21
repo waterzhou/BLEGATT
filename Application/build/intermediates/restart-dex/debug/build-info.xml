@@ -5,36 +5,33 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="92569241973638"
-    token="225338726136745790" >
+    timestamp="865325404307"
+    token="225338726136745790"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="425" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="210" />
     <task
         name="verifier"
-        duration="0" />
+        duration="28" />
+
+    <artifact
+        location="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/outputs/apk/Application-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="91264375978446"
+        timestamp="865325404307"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/outputs/apk/Application-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="92552769668918"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="92569241973638" />
 
 </instant-run>

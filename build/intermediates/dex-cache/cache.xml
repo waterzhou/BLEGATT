@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="fd3aa4211db7aaab38778ef32648ad38aaef5f08">
+        sha1="5c6e780b8105a1d5b44166aa353ac2d80b808f33">
         <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a2c857bf49535cf1f86093d28ea002b69824733d/classes.dex" />
     </item>
     <item
@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="c2145dc1cb17028d1abf53f5a940392f0eead31a">
+        sha1="c83ce5b52e84d1a27397e470a7a78db282e4cd73">
         <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_190de4c2e8133e3587413f1f3b74700fd7493079/classes.dex" />
     </item>
     <item
