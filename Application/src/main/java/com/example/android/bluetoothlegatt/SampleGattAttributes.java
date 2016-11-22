@@ -32,6 +32,7 @@ public class SampleGattAttributes {
         attributes.put("0000180d-0000-1000-8000-00805f9b34fb", "Heart Rate Service");
         attributes.put("00001812-0000-1000-8000-00805f9b34fb", "HID Service");
         attributes.put("0000180a-0000-1000-8000-00805f9b34fb", "Device Information Service");
+        attributes.put("0000180f-0000-1000-8000-00805f9b34fb", "Battery Service");
         // Sample Characteristics.
         attributes.put("00002a00-0000-1000-8000-00805f9b34fb", "Device Name");
         attributes.put("00002a01-0000-1000-8000-00805f9b34fb", "Appearance");
@@ -39,6 +40,7 @@ public class SampleGattAttributes {
         attributes.put("00002a03-0000-1000-8000-00805f9b34fb", "Reconnection Address");
         attributes.put("00002a04-0000-1000-8000-00805f9b34fb", "Peripheral Preferred Connection Parameters");
         attributes.put("00002a05-0000-1000-8000-00805f9b34fb", "Service Changed");
+        attributes.put("00002a19-0000-1000-8000-00805f9b34fb", "Battery Level");
         attributes.put("00002a22-0000-1000-8000-00805f9b34fb", "HID Boot Key Input Report");
         attributes.put("00002a23-0000-1000-8000-00805f9b34fb", "System ID");
         attributes.put("00002a24-0000-1000-8000-00805f9b34fb", "Model Number");

@@ -21,39 +21,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="144eb9e0769bca8576dffdf782e86f1145a44a51">
+        <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a2c857bf49535cf1f86093d28ea002b69824733d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/support-v13/24.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="327f68d58bb39fb8b585150596b313541f8fdb87">
         <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-24.1.1_27ce3752ede656540ace7fada4aceada9679fc9d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
-        <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.1_9fc4e7a91f8249781aaa9111e9bbc0b38d9a8488/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/zhoujianzheng/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
-        <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_5041913af9a41079f27736029337c02f20bd6001/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5c6e780b8105a1d5b44166aa353ac2d80b808f33">
-        <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a2c857bf49535cf1f86093d28ea002b69824733d/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,6 +57,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.1_9fc4e7a91f8249781aaa9111e9bbc0b38d9a8488/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhoujianzheng/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_5041913af9a41079f27736029337c02f20bd6001/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="c83ce5b52e84d1a27397e470a7a78db282e4cd73">
+        sha1="05985225b7453dc95a74d9739a634a7c667781ea">
         <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_190de4c2e8133e3587413f1f3b74700fd7493079/classes.dex" />
     </item>
     <item

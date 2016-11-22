@@ -125,7 +125,6 @@ public class DeviceControlActivity extends Activity {
                 if (mCount == 52)
                 {
                     long timepassed = Calendar.getInstance().getTimeInMillis() - mStartMilliseconds;
-
                     long speedvalue = (53*8*20*1000)/timepassed ;
                     mSpeedField.setText(String.valueOf(speedvalue)+ "bps");
                     Log.d(TAG,"time passed =" + timepassed + "speed=" + speedvalue);

@@ -2,36 +2,43 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="23"
-    density="xxhdpi"
+    density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="865325404307"
+    timestamp="8755175206078"
     token="225338726136745790"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="STATIC_INITIALIZER_CHANGE" >
 
     <task
         name="javac"
-        duration="425" />
+        duration="243" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="210" />
+        duration="7" />
     <task
         name="verifier"
-        duration="28" />
+        duration="19" />
 
     <artifact
-        location="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/outputs/apk/Application-debug.apk"
-        type="MAIN" />
+        location="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="865325404307"
+        timestamp="8064467468661"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/outputs/apk/Application-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="8755175206078"
+        verifier="STATIC_INITIALIZER_CHANGE" >
+        <artifact
+            location="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

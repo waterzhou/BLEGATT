@@ -32,6 +32,7 @@ import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
 
+import java.util.Calendar;
 import java.util.List;
 import java.util.UUID;
 
@@ -148,6 +149,7 @@ public class BluetoothLeService extends Service {
                 for(byte byteChar : data)
                     stringBuilder.append(String.format("%02X ", byteChar));
                 intent.putExtra(EXTRA_DATA, /*new String(data) + "\n" + */stringBuilder.toString());
+
             }
         }
         sendBroadcast(intent);
