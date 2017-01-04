@@ -24,12 +24,12 @@
         "source": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/res/merged/debug/layout/listitem_device.xml",

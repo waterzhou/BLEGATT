@@ -21,39 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="144eb9e0769bca8576dffdf782e86f1145a44a51">
-        <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a2c857bf49535cf1f86093d28ea002b69824733d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/support-v13/24.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="327f68d58bb39fb8b585150596b313541f8fdb87">
         <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-24.1.1_27ce3752ede656540ace7fada4aceada9679fc9d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
-        <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_8b8ef66a03c683b431cca61756de2bb227b8a5b8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f62e763609f65e47dc6c498760a4accf02776788">
-        <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_55479b0e2973ad97a681b390093d6e1ee840688c/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,6 +48,33 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3c6347977210c40bc30e5e4123c3c94ada269801">
+        <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a2c857bf49535cf1f86093d28ea002b69824733d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_8b8ef66a03c683b431cca61756de2bb227b8a5b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_55479b0e2973ad97a681b390093d6e1ee840688c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="05985225b7453dc95a74d9739a634a7c667781ea">
+        sha1="6a794a91b6359fe422d0ffee1c2fd5c16871800a">
         <dex dex="/Users/zhoujianzheng/Desktop/water/project/BLE/BLEGATT/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_190de4c2e8133e3587413f1f3b74700fd7493079/classes.dex" />
     </item>
     <item
